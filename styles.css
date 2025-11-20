@@ -1,0 +1,119 @@
+/* ---------------------------
+   Stile generale - Veloria Event
+---------------------------- */
+
+:root {
+  --bg-color: #faf7f2;
+  --primary-color: #d4a373;
+  --accent-color: #f1e0d6;
+  --text-color: #333;
+  --heading-color: #7a4e2d;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* ---------------------------
+   Navbar
+---------------------------- */
+
+header {
+  background-color: var(--white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 15px 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--primary-color);
+}
+
+/* ---------------------------
+   Sezioni principali
+---------------------------- */
+
+main {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  color: var(--heading-color);
+}
+
+h1 {
+  border-bottom: 3px solid var(--accent-color);
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+/* ---------------------------
+   Citazione / Blocco evidenza
+---------------------------- */
+
+blockquote.citazione {
+  background-color: var(--accent-color);
+  padding: 20px;
+  border-left: 5px solid var(--primary-color);
+  border-radius: 8px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+/* ---------------------------
+   Footer
+---------------------------- */
+
+footer {
+  background-color: var(--white);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #eee;
+}
