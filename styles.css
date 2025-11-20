@@ -116,4 +116,18 @@ footer {
   font-size: 14px;
   color: #777;
   border-top: 1px solid #eee;
+
+}
+
+
+/* ---------------------------
+   Immagini
+---------------------------- */
+
+img {
+  max-width: 100%;          /* Limita la larghezza massima all'80% della larghezza del contenitore */
+  height: auto;             /* Mantiene le proporzioni dell'immagine */
+  display: block;           /* Rimuove lo spazio sotto l'immagine causato da inline-block */
+  margin: 0 auto;           /* Centra l'immagine orizzontalmente */
+  border-radius: 8px;       /* Bordo arrotondato (opzionale) */
 }
