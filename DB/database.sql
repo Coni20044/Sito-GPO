@@ -1,3 +1,5 @@
+CREATE DATABASE veloria_event;
+
 CREATE TABLE lavorano(
     ID INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     giorno DATETIME NOT NULL,
@@ -61,4 +63,5 @@ CREATE TABLE clienti (
     cognome VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL,
     telefono CHAR(10) NOT NULL
+
 );
